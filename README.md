@@ -11,14 +11,14 @@
 
 ## 📌 Overview
 
-Financial markets cycle through distinct behavioral states — trending, mean-reverting, volatile, calm — each with its own risk/return profile. **Market Regime Intelligence** is an end-to-end pipeline that:
+Financial markets cycle through distinct behavioral states - trending, mean-reverting, volatile, calm - each with its own risk/return profile. **Market Regime Intelligence** is an end-to-end pipeline that:
 
 1. **Discovers** hidden market regimes from raw price data using unsupervised learning
 2. **Validates** regimes by detecting anomalies within and across clusters
 3. **Models** how regimes evolve over time using Markov chain theory
 4. **Forecasts** the next regime using a tuned XGBoost classifier
 
-The result is a framework for **regime-aware decision-making** — knowing not just where the market is, but where it's likely to go next.
+The result is a framework for **regime-aware decision-making** - knowing not just where the market is, but where it's likely to go next.
 
 ---
 
@@ -63,7 +63,7 @@ Market Data (yfinance)
 
 ## 📊 Data
 
-Market data is fetched programmatically via [`yfinance`](https://github.com/ranaroussi/yfinance) — no manual downloads required.
+Market data is fetched programmatically via [`yfinance`](https://github.com/ranaroussi/yfinance) - no manual downloads required.
 
 Features engineered from raw OHLCV data include returns, rolling volatility, momentum indicators, and more (see notebooks for details).
 
@@ -145,7 +145,7 @@ market-regime-intelligence/
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
